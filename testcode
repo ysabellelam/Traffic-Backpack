@@ -1,0 +1,27 @@
+  // draw some text!
+  matrix.setCursor(1, 0);   // start at top left, with one pixel of spacing
+  matrix.setTextSize(1);    // size 1 == 8 pixels high
+ 
+  // print each letter with a rainbow color
+  matrix.setTextColor(matrix.Color333(7,0,0));
+  matrix.print('D');
+  matrix.setTextColor(matrix.Color333(7,4,0)); 
+  matrix.print('R');
+  matrix.setTextColor(matrix.Color333(7,7,0));
+  matrix.print('I');
+  matrix.setTextColor(matrix.Color333(4,7,0)); 
+  matrix.print('V');
+  matrix.setTextColor(matrix.Color333(0,7,0));  
+  matrix.print('E');
+ 
+  matrix.setCursor(1, 9);   // next line
+  matrix.setTextColor(matrix.Color333(0,7,7)); 
+  matrix.print('S');
+  matrix.setTextColor(matrix.Color333(0,4,7)); 
+  matrix.print('A');
+  matrix.setTextColor(matrix.Color333(0,0,7));
+  matrix.print('F');
+  matrix.setTextColor(matrix.Color333(4,0,7)); 
+  matrix.print("E");
+  matrix.setTextColor(matrix.Color333(7,0,4)); 
+  matrix.print("!");
